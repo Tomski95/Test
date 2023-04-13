@@ -1,8 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.ComponentModel;
+
 Console.WriteLine("Hello, Angel!");
 
-int a = int.Parse(Console.ReadLine());
+int suma = 0;
 
-int suma = a + 2;
+for (int i = 0; i <= 10; i++)
+{
+    suma = suma + i;
+}
 
 Console.WriteLine(suma);
